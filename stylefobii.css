@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Exo1';
+    src: url(Exo2-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url(Exo2-Light.ttf);
+}
+
+#logo {
+    width: 270px;
+    height: 188px;
+    margin-right: 300px;
+}
+
+#polosa {
+    display: inline;
+}
+
+#polosa>h2,
+#polosa>input {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.45);
+    vertical-align: 80px;
+    padding-right: 80px;
+}
+
+#polosa>input {
+    background-color: rgb(165, 209, 195);
+    font-size: 25px;
+    border-radius: 50px;
+    width: 170px;
+    border: solid 1px rgb(194, 208, 252);
+    color: rgb(35, 21, 116);
+    font-family: "Exo1";
+}
+
+p {
+    text-align: center;
+    font-family: "Exo2";
+    color: darkslategray;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Exo1";
+    color: green;
+}
+
+.fob {
+    margin-left: 600px;
+    height: 400px;
+}
+
+.fob1 {
+    margin-left: 500px;
+    height: 400px;
+}

@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Exo1';
+    src: url(Exo2-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url(Exo2-Light.ttf);
+}
+
+h1 {
+    font-size: 20px;
+    font-family: "Exo1";
+    color: darkslategray;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+    font-family: "Exo1";
+    color: darkturquoise;
+    text-align: center;
+}
+
+.ris {
+    display: inline-block;
+    margin-left: 625px;
+    height: 300px;
+}
+
+body {
+    border: solid 2px lightgreen;
+}
+
+input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Exo2";
+    background-color: lightcyan;
+    color: rgb(16, 63, 110);
+    font-size: 16px;
+    text-align: center;
+    width: 1500px;
+    height: 50px;
+}
+
+.Posl {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Exo1";
+    background-color: rgb(8, 204, 188);
+    color: rgb(16, 63, 110);
+    font-size: 16px;
+    text-align: center;
+    width: 1500px;
+    height: 50px;
+}
+
+#logo {
+    width: 270px;
+    height: 188px;
+    margin-right: 300px;
+}
+
+#polosa {
+    display: inline;
+}
+
+#polosa>h2,
+.knop {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.45);
+    vertical-align: 80px;
+    padding-right: 80px;
+}
+
+.knop {
+    background-color: rgb(165, 209, 195);
+    font-size: 25px;
+    border-radius: 50px;
+    width: 170px;
+    border: solid 1px rgb(194, 208, 252);
+    color: rgb(35, 21, 116);
+    font-family: "Exo1";
+}

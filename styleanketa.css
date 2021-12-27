@@ -1,0 +1,28 @@
+fieldset {
+    border: solid 3px darkgreen;
+    text-align: center;
+    font-family: "Exo1";
+}
+
+@font-face {
+    font-family: 'Exo1';
+    src: url(Exo2-SemiBold.ttf);
+}
+
+input {
+    background-color: darkseagreen;
+    font-family: "Exo1";
+    font-size: 20px;
+    color: darkslategrey;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 40px;
+}
+
+.img2 {
+    width: 600px;
+    display: inline;
+    float: right;
+}

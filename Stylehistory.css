@@ -1,0 +1,57 @@
+    #logo {
+        width: 270px;
+        height: 188px;
+        margin-right: 300px;
+    }
+    
+    #polosa {
+        display: inline;
+    }
+    
+    #polosa>h2,
+    #polosa>input {
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.45);
+        vertical-align: 80px;
+        padding-right: 80px;
+    }
+    
+    #polosa>input {
+        background-color: rgb(165, 209, 195);
+        font-size: 25px;
+        border-radius: 50px;
+        width: 170px;
+        border: solid 1px rgb(194, 208, 252);
+        color: rgb(35, 21, 116);
+        font-family: "Exo1";
+    }
+    
+    @font-face {
+        font-family: 'Exo1';
+        src: url(Exo2-SemiBold.ttf);
+    }
+    
+    @font-face {
+        font-family: 'Exo2';
+        src: url(Exo2-Light.ttf);
+    }
+    
+    p {
+        font-family: "Exo2";
+    }
+    
+    h1 {
+        font-family: "Exo1";
+        color: rgb(26, 87, 66);
+    }
+    
+    .img {
+        height: 400px;
+        display: inline;
+        float: left;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        box-shadow: -20px -20px rgb(195, 250, 193);
+    }

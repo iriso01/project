@@ -1,0 +1,150 @@
+.dropdow,
+#MyDropdown ul {
+    margin: 0;
+    width: 140px;
+    text-align: center;
+    color: cadetblue;
+}
+
+#dropdown li:hover {
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+#dropdown li {
+    list-style-type: none;
+    float: left;
+}
+
+#nav {
+    margin-right: 25px;
+}
+
+.nav,
+.history {
+    width: 140px;
+    text-decoration: none;
+    font-size: 14px;
+    color: cadetblue;
+    display: block;
+    margin-left: -10px;
+}
+
+#logo {
+    width: 270px;
+    height: 188px;
+    margin-right: 300px;
+}
+
+#polosa {
+    display: inline;
+}
+
+#polosa>h2,
+#polosa>input {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.45);
+    vertical-align: 80px;
+    padding-right: 80px;
+}
+
+#polosa>input {
+    background-color: rgb(165, 209, 195);
+    font-size: 25px;
+    border-radius: 50px;
+    width: 170px;
+    border: solid 1px rgb(194, 208, 252);
+    color: rgb(35, 21, 116);
+    font-family: "Exo1";
+}
+
+.text {
+    display: inline-block;
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 150px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-top: solid 3px darkgreen;
+    border-bottom: solid 3px darkgreen;
+}
+
+#text>img {
+    display: inline-block;
+    height: 400px;
+    margin-left: 900px;
+    margin-top: -300px;
+    box-shadow: 5px -5px 20px rgb(24, 62, 80);
+}
+
+@font-face {
+    font-family: 'Exo1';
+    src: url(Exo2-SemiBold.ttf);
+}
+
+.text>p {
+    font-size: 20px;
+    color: rgb(20, 119, 78);
+}
+
+p {
+    font-family: "Exo2";
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url(Exo2-Light.ttf);
+}
+
+h1 {
+    font-family: "Exo1";
+}
+
+.nav1 li {
+    display: inline;
+    padding-right: 40px;
+}
+
+.nav1 a {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    font-family: "Exo1";
+    font-size: 20px;
+    text-decoration: none;
+    color: lightseagreen;
+    width: 15%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.show {
+    display: block;
+}

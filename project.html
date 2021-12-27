@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Психологический центр</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.
+js"></script>
+</head>
+
+<body>
+    <div id="polosa">
+        <img id="logo" src="Logo.png">
+
+        <h2>Онлайн-помощь</h2>
+        <h2>Круглосуточно</h2>
+        <input type="button" value="Напиши нам" onclick="fun1()">
+        <script>
+            function fun1(a) {
+                window = open("forma.html");
+
+            }
+        </script>
+
+    </div>
+    <ul class="nav1">
+
+        <li>
+            <ul id="dropdown">
+                <li>
+                    <a class="nav">Истории</a>
+                    <ul id="myDropdown" class="dropdown-content">
+
+                        <li><a href="History1.html" class="history">История 1</a></li>
+                        <li><a href="History2.html" class="history">История 2</a></li>
+                        <li><a href="History3.html" class="history">История 3</a></li>
+                    </ul>
+
+            </ul>
+            </li>
+            <script>
+                $(function() {
+                    $("#dropdown li").hover(function() {
+                        $(this).children("ul").stop(false, true).fadeIn(300);
+                    }, function() {
+                        $(this).children("ul").stop(false, true).fadeOut(300);
+                    });
+                });
+            </script>
+        </li>
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+
+                    let dropdowns = document.getElementsByClassName("dropdown-content");
+                    let i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        let openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+        </li>
+        <li><a id="ssl1" href="Specialist.html"> Специалисты</a></li>
+        <li><a id="ssl4" href="Fobii.html">Фобии</a></li>
+        <li><a id="ssl3" href="Test.html">Тест</a></li>
+    </ul>
+    <div id="text">
+        <div class="text">
+            <h1>Психология человека</h1>
+            <p>Вся наша жизнь - это бесконечная череда событий, ситуаций, дел, встреч, разговоров, перемен, побед и поражений, надежд и разочарований. Другими словами, жизнь человека – это постоянное взаимодействие его внутреннего мира с окружающей действительностью.</p>
+        </div>
+        <img src="img1.jpg">
+    </div>
+
+
+
+</body>
+
+</html>
